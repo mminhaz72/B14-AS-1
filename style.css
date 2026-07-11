@@ -216,17 +216,23 @@ a{
     padding: 100px 0;
     background-color:#f8fafc;
 }
-.pricing-section h2{
-    text-align: center;
+.pricing-section h2, 
+#pricing h2 {
+    text-align: center !important;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 10px;
+    display: block;
+    width: 100%;
 }
+
 .pricing-subtitle {
-    text-align: center;
-    color:#64748b;
+    text-align: center !important;
+    color: #64748b;
     margin-bottom: 60px;
     font-size: 1.05rem;
+    display: block;
+    width: 100%;
 }
 .pricing-row {
     display: flex;
